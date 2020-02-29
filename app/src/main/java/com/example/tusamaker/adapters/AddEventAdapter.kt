@@ -7,11 +7,10 @@ import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.tusamaker.data.Questions
 import com.example.tusamaker.R
+import com.example.tusamaker.data.Questions
 import kotlinx.android.synthetic.main.question_layout.view.*
 import org.koin.core.KoinComponent
-import org.koin.core.inject
 
 class AddEventAdapter(private val questions: ArrayList<Questions>, private val context: Context) :
     RecyclerView.Adapter<AddEventAdapter.ViewHolder>(), KoinComponent {
@@ -37,7 +36,6 @@ class AddEventAdapter(private val questions: ArrayList<Questions>, private val c
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), KoinComponent {
         private val questionTitle: TextView? = itemView.questionName
         private val inputAnswer: EditText? = itemView.answerInputText
-        private val ctx: Context by inject()
 
         fun bind(question: String, answer: String) {
             questionTitle?.text = question

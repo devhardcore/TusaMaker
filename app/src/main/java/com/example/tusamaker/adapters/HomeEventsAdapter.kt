@@ -7,13 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.tusamaker.data.Event
 import com.example.tusamaker.R
+import com.example.tusamaker.data.EventModel
 import kotlinx.android.synthetic.main.card_event.view.*
 import org.koin.core.KoinComponent
 import org.koin.core.inject
 
-class HomeEventsAdapter(private val events: ArrayList<Event>, private val context: Context) :
+class HomeEventsAdapter(private val events: ArrayList<EventModel>, private val context: Context) :
     RecyclerView.Adapter<HomeEventsAdapter.ViewHolder>(), KoinComponent {
 
     override fun getItemCount() = events.size
@@ -28,11 +28,11 @@ class HomeEventsAdapter(private val events: ArrayList<Event>, private val contex
 
     override fun onBindViewHolder(view: ViewHolder, position: Int) {
         view.bind(
-            events[position].type,
-            events[position].name,
-            events[position].price,
+            events[position].category,
+            events[position].title,
+            "100p",
             events[position].date,
-                events[position].dateShort
+            "20"
         )
         view.itemView.setOnClickListener {
         }

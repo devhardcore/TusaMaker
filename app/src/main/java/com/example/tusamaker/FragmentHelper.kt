@@ -3,7 +3,10 @@ package com.example.tusamaker
 import android.util.Log
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
-import com.example.tusamaker.application.*
+import com.example.tusamaker.application.AddEvent
+import com.example.tusamaker.application.Home
+import com.example.tusamaker.application.Search
+import com.example.tusamaker.application.Selections
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.koin.core.KoinComponent
 
