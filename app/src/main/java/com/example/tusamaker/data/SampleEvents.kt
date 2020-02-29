@@ -1,4 +1,4 @@
-package com.example.omskalive.Data
+package com.example.tusamaker.data
 
 val eventList = arrayListOf<Event>(
     Event(

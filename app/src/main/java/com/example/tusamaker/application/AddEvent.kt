@@ -1,4 +1,4 @@
-package com.example.omskalive.application
+package com.example.tusamaker.application
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.omskalive.Data.Event
-import com.example.omskalive.Data.Questions
-import com.example.omskalive.R
-import com.example.omskalive.adapters.AddEventAdapter
-import com.example.omskalive.adapters.HomeEventsAdapter
+import com.example.tusamaker.data.Questions
+import com.example.tusamaker.R
+import com.example.tusamaker.adapters.AddEventAdapter
 
 class AddEvent : Fragment() {
 

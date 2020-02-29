@@ -1,4 +1,4 @@
-package com.example.omskalive.application
+package com.example.tusamaker.application
 
 import android.app.Application
 import org.koin.android.ext.koin.androidContext

@@ -1,4 +1,4 @@
-package com.example.omskalive.adapters
+package com.example.tusamaker.adapters
 
 
 import android.content.Context
@@ -8,8 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.omskalive.Data.Event
-import com.example.omskalive.R
+import com.example.tusamaker.data.Event
+import com.example.tusamaker.R
 import kotlinx.android.synthetic.main.card_event.view.*
 import org.koin.core.KoinComponent
 import org.koin.core.inject

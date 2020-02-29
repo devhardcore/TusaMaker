@@ -1,4 +1,4 @@
-package com.example.omskalive.adapters
+package com.example.tusamaker.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.omskalive.Data.Selection
-import com.example.omskalive.R
+import com.example.tusamaker.data.Selection
+import com.example.tusamaker.R
 import kotlinx.android.synthetic.main.recycler_collection.view.*
 import org.koin.core.KoinComponent
 import org.koin.core.inject

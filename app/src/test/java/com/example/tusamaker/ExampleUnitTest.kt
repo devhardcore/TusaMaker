@@ -1,4 +1,4 @@
-package com.example.omskalive
+package com.example.tusamaker
 
 import org.junit.Test
 

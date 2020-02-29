@@ -1,11 +1,11 @@
-package com.example.omskalive.application
+package com.example.tusamaker.application
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.omskalive.R
+import com.example.tusamaker.R
 
 class Search : Fragment() {
 

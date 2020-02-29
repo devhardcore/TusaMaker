@@ -1,9 +1,9 @@
-package com.example.omskalive.application
+package com.example.tusamaker.application
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.omskalive.FragmentHelper
-import com.example.omskalive.R
+import com.example.tusamaker.FragmentHelper
+import com.example.tusamaker.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {

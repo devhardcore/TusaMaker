@@ -1,4 +1,4 @@
-package com.example.omskalive.application
+package com.example.tusamaker.application
 
 
 import android.os.Bundle
@@ -8,10 +8,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.omskalive.Data.Event
-import com.example.omskalive.Data.eventList
-import com.example.omskalive.R
-import com.example.omskalive.adapters.HomeEventsAdapter
+import com.example.tusamaker.data.eventList
+import com.example.tusamaker.R
+import com.example.tusamaker.adapters.HomeEventsAdapter
 import org.koin.core.KoinComponent
 
 class Home : Fragment(), KoinComponent {
